@@ -3,6 +3,8 @@ import ssl
 
 
 def send_email(message):
+    # Se configura el servidor SMTP de Gmail, acá solo debes agregar el usuario, la contraseña de aplicación y el email
+    # del receptor. Este email puede ser el mismo del usuario si se quiere.
     host = "smtp.gmail.com"
     port = 465
     username = "APP_USERNAME"
